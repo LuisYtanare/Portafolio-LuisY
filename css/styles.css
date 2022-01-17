@@ -193,7 +193,7 @@ section .title::after{
 
 
 .about .title::after{
-    content: "quien soy";
+    content: "quem sou";
 }
 
 .about .about-content .left{
@@ -238,7 +238,7 @@ section .title::after{
     background: none;
 }
 
-/* servicios seccion*/
+/* servicios seccion */
 .services, .teams{
     background: #111;
     color: #fff;
@@ -250,7 +250,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "Proporciono";
+    content: "Eu forneço";
 
 }
 .services .serv-content .card{
@@ -288,7 +288,7 @@ section .title::after{
 /* services section styling  */
 
 .skills .title::after{
-    content: "Los que sé";
+    content: "o que sei";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -348,13 +348,13 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 85%;
 }
 .skills-content .right .js::before{
     width: 50%;
 }
 .skills-content .right .react::before{
-    width: 50%;
+    width: 99%;
 }
 /* seccion de equipo  */
 
@@ -421,9 +421,13 @@ section .title::after{
 }
 
 /* contact me secction styling  */
-
+.contact{
+    background: #111;
+    color: #fff;
+}
 .contact .title::after{
-    content: "get in touch";
+    content: "entrar em contato";
+    background: #111;
 }
 
 .contact .contact-content .column{
@@ -456,7 +460,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: rgb(192, 189, 189);
 }
 
 .contact .right form .fields{
@@ -518,9 +522,9 @@ section .title::after{
 
 footer{
     text-align: center;
-    background: #111;
+    background: #fff;
     padding: 20px 23px;
-    color: #fff;
+    color: #111;
 
 }
 footer span a{
